@@ -2,10 +2,10 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "rulocode",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything ",
-    email: "andres@rulocode.com",
+    image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Frontend developer",
+    bio: "Turning Ideas into Unique Digital Experiences.",
+    email: "",
     linkedin: "rulocode",
     github: "rulocode",
     instagram: "",
@@ -18,13 +18,13 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
+    title: "Rulocode-blog",
     description: "welcome to morethan-log!",
   },
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2020, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 

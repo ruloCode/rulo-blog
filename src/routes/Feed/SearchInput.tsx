@@ -1,5 +1,9 @@
 import styled from "@emotion/styled"
 import React, { InputHTMLAttributes, ReactNode } from "react"
+import {
+  AiOutlineSearch,
+  
+} from "react-icons/ai"
 import { Emoji } from "src/components/Emoji"
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {}
@@ -9,6 +13,8 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
     <StyledWrapper>
       <div className="top">
         <Emoji>🔎</Emoji> Search
+
+        
       </div>
       <input
         className="mid"
