@@ -4,7 +4,7 @@ const CONFIG = {
     name: "rulocode",
     image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Frontend developer",
-    bio: "Turning Ideas into Unique Digital Experiences.",
+    bio: "Convirtiendo ideas en experiencias digitales únicas.",
     email: "",
     linkedin: "rulocode",
     github: "rulocode",
@@ -19,11 +19,11 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Rulocode-blog",
-    description: "welcome to morethan-log!",
+    description: "Convirtiendo ideas en experiencias digitales únicas.",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://rulocode.com",
   since: 2020, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
