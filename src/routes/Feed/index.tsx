@@ -18,7 +18,6 @@ type Props = {}
 const Feed: React.FC<Props> = () => {
   const [q, setQ] = useState("")
 
-  console.log('hola')
 
   return (
     <StyledWrapper>
