@@ -4,7 +4,7 @@ const CONFIG = {
     name: "rulocode",
     image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Frontend developer",
-    bio: "Convirtiendo ideas en experiencias digitales únicas.",
+    bio: "Turning ideas into unique digital experiences.",
     email: "",
     linkedin: "rulocode",
     github: "rulocode",
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Rulocode-blog",
-    description: "Convirtiendo ideas en experiencias digitales únicas.",
+    description: "Turning ideas into unique digital experiences.",
   },
 
   // CONFIG configration (required)

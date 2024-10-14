@@ -38,7 +38,7 @@ const Feed: React.FC<Props> = () => {
         <FeedHeader />
         <PostList q={q} />
         <div className="footer">
-          <Footer />
+          <Footer  />
         </div>
       </div>
       <div

@@ -18,6 +18,8 @@ const PostDetail: React.FC<Props> = () => {
 
   return (
     <StyledWrapper>
+      <Footer  />
+
       <article>
         {category && (
           <div css={{ marginBottom: "0.5rem" }}>
@@ -32,7 +34,7 @@ const PostDetail: React.FC<Props> = () => {
         </div>
         {data.type[0] === "Post" && (
           <>
-            <Footer />
+            <Footer showTop />
             <CommentBox data={data} />
           </>
         )}
